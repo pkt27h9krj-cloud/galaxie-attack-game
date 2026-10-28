@@ -1,0 +1,19 @@
+APAISE — version installable (PWA)
+
+CONTENU
+- index.html : le jeu, avec ses fonctionnalités d'origine et les éléments PWA ajoutés.
+- manifest.webmanifest : configuration d'installation.
+- sw.js : mise en cache pour permettre une utilisation hors ligne après le premier chargement réussi.
+- icon.svg : icône de l'application.
+
+INSTALLATION SUR IPHONE
+1. Hébergez tous les fichiers de ce dossier ensemble sur un hébergeur HTTPS.
+2. Ouvrez l'adresse du site dans Safari.
+3. Touchez Partager, puis « Sur l'écran d'accueil ».
+4. Validez avec « Ajouter ».
+
+IMPORTANT
+- N'ouvrez pas simplement index.html depuis l'app Fichiers : l'installation PWA et le service worker nécessitent généralement un site HTTPS.
+- Gardez tous les fichiers dans le même dossier sur l'hébergeur.
+- Les sauvegardes du jeu peuvent dépendre du stockage local du navigateur/appareil.
+- Le cache hors ligne se remplit après un premier accès en ligne réussi.
