@@ -1,0 +1,14 @@
+{
+  "name": "APAISE — Trois expériences sensorielles",
+  "short_name": "APAISE",
+  "description": "Jeux sensoriels et Galaxy Attack",
+  "start_url": "./index.html",
+  "scope": "./",
+  "display": "standalone",
+  "orientation": "portrait",
+  "background_color": "#07070b",
+  "theme_color": "#07070b",
+  "icons": [
+    { "src": "icon.svg", "sizes": "any", "type": "image/svg+xml", "purpose": "any maskable" }
+  ]
+}
